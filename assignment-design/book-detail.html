@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="style6.css">
+    <style>
+        /*        CSS FOR BANNER SECTION */
+        .banner {
+            /*            margin-top: 5px;*/
+        }
+
+        /*        CSS FOR BANNER SECTIO CLOSE */
+
+        /* CSS FOR MAIN SECTION */
+        main {
+            padding: 20px 40px;
+        }
+
+        /*   CSS FOR MAIN SECITON CLOSE */
+
+        /*   CSS FOR CARD CLASS */
+        .product-card {
+            /*background-color: aqua;*/
+            margin-top: 50px;
+        }
+
+
+
+        /*    CSS FOR CARD SECTION CLOSE */
+
+        /*    CSS FOR ALL NEW RELEASE */
+        .All-New-Release {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            overflow-x: scroll;
+            margin-top: 20px;
+        }
+
+        .All-New-Release::-webkit-scrollbar {
+            display: none;
+        }
+
+        /*    CSS FOR ALL NEW RELEASE CLOSE */
+
+
+        /*        CSS FOR FOOTER SECTION */
+        footer {}
+
+        footer p {
+            padding: 5px 0;
+            text-align: center;
+            font-size: 17px;
+        }
+
+        /*        CSS FOR FOOTER SECTION CLOSE */
+    </style>
+
+</head>
+
+<body>
+    <!--- header section --->
+    <header>
+        <!-- head-lf section ---->
+        <div class="head-lf">
+            <a href="index2.html">
+                Online Book Store
+            </a>
+        </div><!-- head-lf close ---->
+
+        <!-- head-md section ---->
+        <div class="head-md">
+            <a class="search-btn" href="#"><i class="fa fa-search"></i></a>
+            <input type="search" class="searchbar" placeholder="search anything here....">
+        </div><!-- head-md close ---->
+
+        <!-- head-rt section ---->
+        <div class="head-rt">
+
+            <div class="dropdown">
+                <a class="dropbtn"><i class="fa fa-book"></i> BOOKS <i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="New-release2.html">New Release</a>
+                    <a href="Fiction2.html">Fiction</a>
+                    <a href="Romance2.html">Romance</a>
+                    <a href="Adventure2.html">Adventure</a>
+                    <a href="Thriller2.html">Thriller</a>
+                </div>
+            </div>
+
+            <div class="dropdown2">
+                <a href="customer-profile.html" class="dropbtn2"><i class="fa fa-user"></i> USER</a>
+            </div>
+
+            <a href="#" class="nav-item"><i class="fa fa-sign-out-alt"></i> SIGN OUT</a>
+            <a href="customer-cart.html" class="nav-item"><i class="fa fa-shopping-cart"></i> (0 items)</a>
+        </div> <!-- head-rt close ---->
+    </header>
+    <!--- header section close --->
+
+    <!--    Banner section -->
+    <div class="info-banner">
+        <p><span class="book-head">Book Name</span> by author</p>
+        <hr>
+        <div class="book-information">
+            <div class="img">
+                <img src="venom.jpg" alt="">
+            </div>
+            <div class="information">
+                <div class="overview">
+                    <h1>Overview</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit odio dolorem alias repellendus non. Sit, nisi! dolorem molestias error porro fugiat nostrum quaerat, vitae omnis optio quod id ipsam consequatur cumque sunt. Quasi. voluptatum aliquam impedit sint praesentium harum ipsam vel optio, accusamus inventore, tempore vero.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, ut. Sapiente eaque asperiores praesentium voluptate placeat deserunt incidunt vero temporibus cupiditate harum pariatur quis mollitia nam repudiandae molestias, quia porro!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio culpa saepe rerum nisi repellendus, maiores nemo qui .......</p>
+                </div>
+
+                <div class="detail">
+                    <h1>Detail</h1>
+                    <div class="detail-content">
+                        <div>
+                            <p>Author: Rosalie Ham</p>
+                            <p>Publisher: Profile bode ltd.</p>
+                        </div>
+
+                        <div>
+                            <p>Category: Thriller</p>
+                            <p>ISBN: 111233532512</p>
+                        </div>
+                    </div>
+                    <!--- detail content section close --->
+                </div>
+                <!---- Detail Section Close ---->
+
+            </div>
+            <!--- information section close --->
+            <div class="action">
+                <div class="prc">
+                    <p id="mny">Rs. 920</p>
+                    <button><i fa fa-shoping-cart></i> Add to Cart</button>
+                </div>
+                <!--- prc section close --->
+                <div class="rating">
+                    <h3>Average Rating</h3>
+                    <h3>0</h3>
+                    <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                    <button><i class="fa fa-edit"></i> Write a review</button>
+                </div>
+                <!--- rating section close --->
+            </div><!-- action-section close --->
+        </div>
+        <!--- book-information section close --->
+    </div>
+    <hr style="margin: 0 4vw;">
+    <!--- info-banner section close --->
+    <!--- Banner Section close --->
+
+    <!--    Main section -->
+    <main>
+        <div class="product-card">
+            <h1>You Might Also Like</h1>
+            <div class="All-New-Release">
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-bag"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-bag"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-bag"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-bag"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-bag"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-bag"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-bag"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="review">
+            <h1>Customer Review</h1>
+            <hr>
+
+            <div>
+                <p class="review-title"><span class="bold">Review Title</span> by Book User on February, 2020 <br>
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-alt"></i></p>
+                <p class="review-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim esse fugiat autem exercitationem quae nesciunt nemo, porro tempora illo non. Recusandae veniam consequuntur alias corporis velit, dolor cum impedit porro.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quos, reiciendis voluptas deleniti blanditiis recusandae? Fuga ipsum debitis non sint mollitia, recusandae, laborum nobis, voluptas quis iste corrupti magni error!
+                </p>
+                <hr>
+            </div>
+
+        </div>
+
+    </main><!-- Main section close -->
+
+    <!-- Footer section -->
+    <hr>
+    <footer>
+        <p>Copyright &copy; 2020 </p>
+    </footer>
+    <!--- Footer section close --->
+</body></html>

@@ -1,0 +1,46 @@
+.purchased-summary {
+    margin: 2vh 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.purchased-summary .purchased-info p {
+    font-size: 1.2rem;
+}
+
+.purchased-summary .generate-btn input[type="submit"] {
+    background-color: dodgerblue;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: .2rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+}
+
+.purchased-summary .generate-btn input[type="submit"]:hover {
+    background-color: darkcyan;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: .2rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+    transition: .3s;
+}
+
+
+
+/* CSS FOR DATE PICKER */
+.date-select {
+    margin: 1vh 4vw;
+}
+
+.date-select label,
+input[type="date"] {
+    margin-right: 2vw;
+}
+
+/* CSS FOR DATE PICKER CLOSE */

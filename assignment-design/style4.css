@@ -1,0 +1,192 @@
+/* CSS FOR SUB HEADING */
+.sub-head {
+    padding: 25px;
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sub-head a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    background-color: aliceblue;
+    padding: .5vw 5vw;
+    border-radius: 100px;
+}
+
+.active a {
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+.sub-head a:hover {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    transition: .2s;
+    background-color: dodgerblue;
+    padding: .5vw 5vw;
+    border-radius: 100px;
+}
+
+/* CSS FOR SUB HEADING CLOSE */
+
+
+/* CSS FOR MAIN SECTION */
+main {
+    padding: 2vh 2vw;
+    margin: 0 30px;
+}
+
+/* CSS FOR FORM SECTION  */
+form {
+    padding: 3vh 10vw;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+form div {
+    margin: 2vh 0;
+    display: grid;
+    grid-template-columns: 18vh 49vw;
+    height: 3.5vh;
+}
+
+form hr {
+    width: 59vw;
+}
+
+form button {
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: 9vw;
+}
+
+
+
+form button #saveProfile,
+#reset,
+#update,
+#updateProfile {
+    background-color: gainsboro;
+    /*    border: 1px solid #000;*/
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    width: 8rem;
+    padding: .3rem .8rem;
+    margin-right: 2rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+form button #saveProfile,
+#update,
+#updateProfile {
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+form button #saveProfile:hover,
+#update:hover,
+#updateProfile:hover {
+    background-color: darkcyan;
+    color: #fff;
+    transition: .5s;
+}
+
+form button #reset:hover {
+    background-color: darkgray;
+    color: #000;
+    transition: .5s;
+}
+
+/* CSS FOR CHANGE PASSWORD CHANGE */
+
+.change-pass {
+    padding: 3vh 10vw;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.change-pass div {
+    margin: 2vh 0;
+    display: grid;
+    grid-template-columns: 30vh 50vw;
+    height: 3.5vh;
+}
+
+.change-pass button {
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: 16vw;
+}
+
+.change-pass button #changePass {
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: .3rem .8rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.change-pass button #changePass:hover {
+    background-color: darkcyan;
+    color: #fff;
+    transition: .5s;
+}
+
+/* CSS FOR CHANGE PASSWORD CHANGE CLOSE */
+
+/* CSS FOR FORM SECTION CLOSE */
+#cust-signup div,
+#vendor-signup div {
+    margin: 2vh 0;
+    display: grid;
+    grid-template-columns: 25vh 49vw;
+    height: 3.5vh;
+}
+
+#cust-signup button,
+#vendor-signup button {
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: 13vw;
+}
+
+#vendor-signup hr {
+    width: 63vw;
+}
+
+/* CSS FOR MAIN SECTION CLOSE */
+
+
+/* CSS FOR CUSTOMER SIGN UP FORM */
+
+/* CSS FOR CUSTOMER SIGN UP FORM CLOSE */
+
+
+/* CSS FOR VENDOR SIGN UP FORM */
+
+/* CSS FOR VENDOR SIGN UP FORM CLOSE */
+
+
+
+@media screen and (max-width: 800px) {
+    .sub-head a {
+        text-decoration: none;
+        font-size: 1rem;
+        color: black;
+        background-color: aliceblue;
+        padding: 1vw 8vw;
+        border-radius: 100px;
+    }
+}

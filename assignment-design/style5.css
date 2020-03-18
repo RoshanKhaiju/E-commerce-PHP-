@@ -1,0 +1,297 @@
+.parameters,
+.list {
+    display: grid;
+    grid-template-columns: 34vw repeat(4, 1fr);
+    text-align: center;
+    margin-bottom: 1.5vh;
+}
+
+.books,
+.lstbooks {
+    /*    background-color: lightblue;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.purchase-date,
+.lstpurchase-date {
+    /*    background-color: lightcoral;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vendor,
+.lstvendor,.customer, .lstcustomer {
+    /*    background-color: lightgray;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qty,
+.lstqty {
+    /*    background-color: lightgreen;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total,
+.lsttotal {
+    /*    background-color: lightpink;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price,
+.lstprice {
+    /*        background-color: lightpink;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action,
+#action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cross {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    cursor: pointer;
+}
+
+.list {
+    margin-top: 2vh;
+}
+
+.lstbooks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+.lstbooks img {
+    margin-left: 2vw;
+    width: 10vw;
+    height: 22vh;
+}
+
+.lstbooks .detail {
+    text-align: left;
+    margin-left: 1.5vw;
+}
+
+.detail h2 {
+    color: dodgerblue;
+    margin-bottom: 1.5rem;
+}
+
+
+/* CSS FOR SHOPPING CART */
+.shoppingcrt {
+    display: grid;
+    grid-template-columns: 1fr 23vw;
+}
+
+.content {
+    /*    background-color: lightblue;*/
+    margin-right: 1vw;
+}
+
+.billing {
+    /*        background-color: lightcoral;*/
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    padding: 1.5rem;
+    border: .1rem solid #000;
+    box-shadow: .1rem .1rem 1rem #ccc;
+    margin-top: 4vh;
+}
+
+.billing .order-total {
+    display: grid;
+    grid-template-columns: 8vw 1fr;
+    padding: 0 1rem;
+    margin-top: 1vh;
+}
+
+.billing .est-tax {
+    box-shadow: .01rem .01rem .2rem #ccc;
+    margin: 1rem 0;
+    padding: 1rem;
+    display: grid;
+    justify-content: center;
+}
+
+.billing .est-tax div {
+    display: grid;
+    grid-template-columns: 8vw 1fr;
+    margin: .6vh 0;
+}
+
+.billing button {
+    background: none;
+    border: none;
+    outline: none;
+    margin-top: 1vh;
+}
+
+.billing button #est-tax,
+#keep-shopping,
+#checkout {
+    padding: .3rem 2rem;
+    outline: none;
+    border: 1px solid #000;
+    ;
+    border-radius: .2rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.billing .est-tax button #est-tax:hover,
+#keep-shopping:hover {
+    background-color: lightgray;
+    transition: .2s;
+}
+
+.billing button #checkout {
+    margin-top: 1vh;
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: 1px solid #000;
+}
+
+.billing button #checkout:hover {
+    background-color: crimson;
+    transition: .2s;
+}
+
+/* CSS FOR SHOPPING CART CLOSE */
+
+
+/* CSS FOR REVIEW SECTION */
+.review {
+    margin-top: 5vh;
+}
+
+.review h1 {
+    margin-bottom: 1vh;
+}
+
+.review .review-title {
+    margin: 1vh 0;
+}
+
+span {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.review .review-content {
+    margin: 1vh 0;
+    font-size: 1.1rem;
+}
+
+/* CSS FOR REVIEW SECTION CLOSE */
+
+
+/* CSS FOR ACTION OF VENDOR VIEW BOOK*/
+#edit {
+    background-color: dodgerblue;
+}
+
+#delete {
+    background-color: red;
+}
+
+#edit,
+#delete {
+    padding: .2rem 1rem;
+    font-size: .9rem;
+    color: #fff;
+    margin-right: 2vh;
+    width: 7vw;
+    border: none;
+    outline: none;
+    border-radius: .2rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+#edit:hover {
+    background-color: darkcyan;
+}
+
+#delete:hover {
+    background-color: crimson;
+}
+
+/* CSS FOR ACTION OF VENDOR VIEW BOOK*/
+
+
+/* CSS FOR VENDOR ORDER REQUEST SECTION */
+.order-request-content .request-parameters,
+.order-request-content .list {
+    display: grid;
+    grid-template-columns: 25vw repeat(5, 1fr) 15vw;
+    text-align: center;
+    margin-bottom: 1.5vh;
+}
+
+.order-request-content .books,
+.lstbooks,
+.order-date,
+.customer-name,
+.lstprice,
+.lstqty,
+.total,
+.action,
+#action {
+    /*    background-color: lightblue;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-request-content #accept {
+    background-color: dodgerblue;
+}
+
+.order-request-content #decline {
+    background-color: red;
+}
+
+.order-request-content #accept,
+#decline {
+    padding: .2rem 1rem;
+    font-size: .9rem;
+    color: #fff;
+    margin-right: 2vh;
+    width: 7vw;
+    border: none;
+    outline: none;
+    border-radius: .2rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.order-request-content #accept:hover {
+    background-color: darkcyan;
+}
+
+.order-request-content #decline:hover {
+    background-color: crimson;
+}
+
+/* CSS FOR VENDOR ORDER REQUEST SECTION CLOSE */

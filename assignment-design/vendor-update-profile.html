@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Add Books</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="style8.css">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <!--- header section --->
+    <header>
+        <!-- vendor-head-lf section ---->
+        <div class="vendor-head-lf">
+            <a href="vendor-update-profile.html">
+                Online Book Store
+            </a>
+        </div><!-- vendor-head-lf close ---->
+
+        <!--  vendor-head-rt section -->
+        <div class="head-rt">
+
+            <a href="vendor-update-profile.html" class="nav-item"><i class="fa fa-user"></i> USER</a>
+
+            <a href="#" class="nav-item"><i class="fa fa-sign-out-alt"></i> SIGN OUT</a>
+
+        </div>
+        <!--  vendor-head-rt section close -->
+
+    </header>
+    <!--- header section close --->
+
+    <!--    sub header section -->
+    <div class="sub-head">
+        <div class="vendor-add-books ">
+            <a href="customer-profile.html"><i class="fa fa-user"></i> Add Books</a>
+        </div>
+        <div class="vendor-view-books ">
+            <a href="customer-cart.html"><i class="fa fa-shopping-cart"></i> View Books</a>
+        </div>
+        <div class="vendor-order-request ">
+            <a href="customer-order-history.html"><i class="fa fa-list"></i> Order Request</a>
+        </div>
+        <div class="vendor-update-profile   active">
+            <a href="customer-change-password.html"><i class="fa fa-lock"></i> Update Profile</a>
+        </div>
+        <div class="transaction ">
+            <a href="customer-change-password.html"><i class="fa fa-lock"></i> Transaction</a>
+        </div>
+    </div>
+    <!--    sub header section close -->
+
+
+    <!--    main section -->
+    <main>
+        <h1>Edit Profile</h1>
+        <hr>
+        <form action="#" method="post" id="vendor-signup">
+
+            <div>
+                <label for="email">Email</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input type="password">
+            </div>
+
+            <div>
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="firstname">First Name</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="lastname">Last Name</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="vendorname">Vendor Name</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="pan-number">PAN Number</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="phone">Phone</label>
+                <input type="text">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="address">Address</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="city">City</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="state">State</label>
+                <input type="text">
+            </div>
+
+            <button>
+                <input type="submit" name="updateProfile" id="updateProfile" value="Update">
+                <input type="submit" name="Reset" id="reset" value="Reset">
+            </button>
+
+        </form>
+    </main>
+    <!-- main section close-->
+
+</body></html>

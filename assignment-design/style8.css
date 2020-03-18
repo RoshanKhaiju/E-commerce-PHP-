@@ -1,0 +1,74 @@
+/* CSS FOR VENDOR SUB HEAD */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vendor-head-lf {
+    align-self: center;
+    margin-left: 35vw;
+}
+
+.vendor-head-lf a {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+/* CSS FOR VENDOR SUB HEAD CLOSE */
+
+
+
+/* CSS FOR VENDOR ADD BOOK FORM */
+#detail-books {
+    padding: 3vh 15vw;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+#detail-books button {
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: 9vw;
+}
+
+#detail-books #add-book,
+#reset {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    width: 8rem;
+    padding: .3rem .8rem;
+    margin-right: 2rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+#detail-books button #add-book:hover {
+    background-color: darkcyan;
+    color: #fff;
+    transition: .5s;
+}
+
+#detail-books button #reset:hover {
+    background-color: darkgray;
+    color: #000;
+    transition: .5s;
+}
+
+#detail-books #add-book {
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+#detail-books div1 {
+    margin: 2vh 0;
+    display: grid;
+    grid-template-columns: 18vh 49vw;
+    height: 3.5vh;
+}
+
+
+/* CSS FOR VENDOR ADD BOOK FORM CLOSE */

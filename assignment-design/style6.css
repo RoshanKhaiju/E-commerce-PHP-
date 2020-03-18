@@ -1,0 +1,119 @@
+.info-banner {
+    /*    background-color: fuchsia;*/
+    margin: 2vh 4vw;
+}
+
+.info-banner .book-head {
+    font-size: 2rem
+}
+
+.book-information {
+    padding: 1rem 1.5rem;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.book-information .img img {
+    width: 17vw;
+    height: 35vh;
+    align-self: center;
+}
+
+.img {
+    /*    background-color: antiquewhite;*/
+}
+
+.book-information .information {
+    /*    background-color: aqua;*/
+    padding: 1rem;
+}
+
+.book-information .detail {
+    /*background-color: lightcoral;*/
+    margin-top: 3vh;
+}
+
+.book-information .detail .detail-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: flex-start;
+}
+
+.book-information .detail .detail-content p {
+    margin-top: 1vh;
+}
+
+.action {
+    /*    background-color: firebrick;*/
+    display: grid;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.action p {
+    margin: 1.5vh 0;
+}
+
+.action .prc button {
+    background-color: limegreen;
+    width: 100%;
+    padding: .7vh 0;
+    font-size: .9rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+}
+
+.action .prc button:hover {
+    background-color: seagreen;
+    width: 100%;
+    padding: .7vh 0;
+    font-size: .9rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.action .rating button {
+    background-color: dodgerblue;
+    width: 100%;
+    padding: .7vh 0;
+    font-size: .9rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+}
+
+.action .rating button:hover {
+    background-color: darkcyan;
+    width: 100%;
+    padding: .7vh 0;
+    font-size: .9rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.action .prc,
+.rating {
+    border: 1px solid #000;
+    align-self: center;
+    text-align: center;
+    /*background-color:aqua;*/
+    padding: 1rem;
+    width: 15vw;
+    border-radius: .8rem;
+}
+
+.action .prc #mny {
+    font-size: 2rem;
+    font-weight: bold;
+}

@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Index page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        /*        CSS FOR BANNER SECTION */
+        .banner {
+            /*            margin-top: 5px;*/
+        }
+
+        /*        CSS FOR BANNER SECTIO CLOSE */
+
+        /* CSS FOR MAIN SECTION */
+        main {
+            padding: 20px 40px;
+        }
+
+        /*        CSS FOR MAIN SECITON CLOSE */
+        /*     CSS FOR CARD CLASS */
+        .product-card {
+            /*            background-color: aqua;*/
+            margin-top: 50px;
+        }
+
+        /*
+        .card {
+            width: 14rem;
+            height: 25rem;
+            display: inline-block;
+            box-shadow: 2px 2px 10px black;
+            border-radius: .5rem;
+            margin-right: 60px;
+        }
+
+        .image img {
+            width: 100%;
+            height: 15rem;
+            border-top-right-radius: .5rem;
+            border-top-left-radius: .5rem;
+        }
+
+        .title {
+            padding: 5px 10px;
+        }
+
+        .des {
+            padding: 5px 10px;
+            font-size: 16px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .des button {
+            margin-top: 1.5rem;
+            width: 100%;
+            background-color: green;
+            border-radius: .5rem;
+            color: white;
+            font-size: .9rem;
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
+
+        .des button:hover {
+            background-color: black;
+            color: white;
+            transition: .5s;
+            cursor: pointer;
+            background-color: darkgreen;
+        }
+*/
+
+        /*    CSS FOR CARD SECTION CLOSE */
+
+        /*    CSS FOR ALL NEW RELEASE */
+        .All-New-Release {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            overflow-x: scroll;
+            margin-top: 20px;
+        }
+
+        .All-New-Release::-webkit-scrollbar {
+            display: none;
+        }
+
+        /*    CSS FOR ALL NEW RELEASE CLOSE */
+
+
+        /*        CSS FOR FOOTER SECTION */
+        footer {}
+
+        footer p {
+            padding: 5px 0;
+            text-align: center;
+            font-size: 17px;
+        }
+
+        /*        CSS FOR FOOTER SECTION CLOSE */
+    </style>
+
+</head>
+
+<body>
+    <!--- header section --->
+    <header>
+        <!-- head-lf section ---->
+        <div class="head-lf">
+            <a href="index2.html">
+                Online Book Store
+            </a>
+        </div><!-- head-lf close ---->
+
+        <!-- head-md section ---->
+        <div class="head-md">
+            <a class="search-btn" href="#"><i class="fa fa-search"></i></a>
+            <input type="search" class="searchbar" placeholder="search anything here....">
+        </div><!-- head-md close ---->
+
+        <!-- head-rt section ---->
+        <div class="head-rt">
+
+            <div class="dropdown">
+                <a class="dropbtn"><i class="fa fa-book"></i> BOOKS <i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="New-release2.html">New Release</a>
+                    <a href="Fiction2.html">Fiction</a>
+                    <a href="Romance2.html">Romance</a>
+                    <a href="Adventure2.html">Adventure</a>
+                    <a href="Thriller2.html">Thriller</a>
+                </div>
+            </div>
+
+            <div class="dropdown2">
+                <a href="customer-profile.html" class="dropbtn2"><i class="fa fa-user"></i> USER</a>
+            </div>
+
+            <a href="#" class="nav-item"><i class="fa fa-sign-out-alt"></i> SIGN OUT</a>
+            <a href="customer-cart.html" class="nav-item"><i class="fa fa-shopping-cart"></i> (0 items)</a>
+        </div> <!-- head-rt close ---->
+    </header>
+    <!--- header section close --->
+
+    <!--    Banner section -->
+    <div class="banner">
+        <img src="New%20folder/432150.jpg" alt="" width=100%; height="700px;">
+    </div>
+    <!--- Banner Section close --->
+
+    <!--    Main section -->
+    <main>
+        <div class="product-card">
+            <h1>New Releases</h1>
+            <div class="All-New-Release">
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="product-card">
+            <h1>Fiction</h1>
+            <div class="All-New-Release">
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="product-card">
+            <h1>Romance</h1>
+            <div class="All-New-Release">
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <h1>Adventure</h1>
+            <div class="All-New-Release">
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <h1>Thriller</h1>
+            <div class="All-New-Release">
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="venom.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Book Name</h1>
+                    </div>
+                    <div class="des">
+                        <p>Author Name</p>
+                        <p>Rs. 500</p>
+                        <button><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main><!-- Main section close -->
+
+    <!-- Footer section -->
+    <hr>
+    <footer>
+        <p>Copyright &copy; 2020 </p>
+    </footer>
+    <!--- Footer section close --->
+</body></html>

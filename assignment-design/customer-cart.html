@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Online Book Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="style5.css">
+
+
+</head>
+
+<body>
+    <!--- header section --->
+    <header>
+        <!-- head-lf section ---->
+        <div class="head-lf">
+            <a href="index2.html">
+                Online Book Store
+            </a>
+        </div><!-- head-lf close ---->
+
+        <!-- head-md section ---->
+        <div class="head-md">
+            <a class="search-btn" href="#"><i class="fa fa-search"></i></a>
+            <input type="search" class="searchbar" placeholder="search anything here....">
+        </div><!-- head-md close ---->
+
+        <!-- head-rt section ---->
+        <div class="head-rt">
+
+            <div class="dropdown">
+                <a class="dropbtn"><i class="fa fa-book"></i> BOOKS <i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="New-release2.html">New Release</a>
+                    <a href="Fiction2.html">Fiction</a>
+                    <a href="Romance2.html">Romance</a>
+                    <a href="Adventure2.html">Adventure</a>
+                    <a href="Thriller2.html">Thriller</a>
+                </div>
+            </div>
+
+            <div class="dropdown2">
+                <a href="customer-profile.html" class="dropbtn2"><i class="fa fa-user"></i> USER</a>
+            </div>
+
+            <a href="#" class="nav-item"><i class="fa fa-sign-out-alt"></i> SIGN OUT</a>
+            <a href="customer-cart.html" class="nav-item"><i class="fa fa-shopping-cart"></i> (0 items)</a>
+        </div> <!-- head-rt close ---->
+    </header>
+    <!--- header section close --->
+
+    <!--    sub header section -->
+    <div class="sub-head">
+        <div class="profile">
+            <a href="customer-profile.html"><i class="fa fa-user"></i> Profile</a>
+        </div>
+        <div class="shopping-cart active">
+            <a href="customer-cart.html"><i class="fa fa-shopping-cart"></i> Shopping Cart</a>
+        </div>
+        <div class="order-history">
+            <a href="customer-order-history.html"><i class="fa fa-list"></i> Order History</a>
+        </div>
+        <div class="change-password">
+            <a href="customer-change-password.html"><i class="fa fa-lock"></i> Change Password</a>
+        </div>
+    </div>
+    <!--    sub header section close -->
+
+    <!--   main section -->
+    <main class="shoppingcrt">
+        <div class="content">
+
+            <div class="parameters">
+                <div class="books">
+                    <p>Description</p>
+                </div>
+
+                <div class="price">
+                    <p>Price</p>
+                </div>
+
+                <div class="qty">
+                    <p>Quantity</p>
+                </div>
+
+                <div class="total">
+                    <p>Total</p>
+                </div>
+            </div><!-- parameter close -->
+
+            <hr>
+
+            <div class="list">
+                <div class="lstbooks">
+                    <img src="New%20folder/the_dark_knight_joker_wallpapers_002.jpg" alt="">
+                    <div class="detail">
+                        <h2>Book Name</h2>
+                        <p>Author Name <br>
+                            Publication Name <br>
+                            ISBN <br>
+                            Book Category</p>
+                    </div>
+                </div>
+
+                <div class="lstprice">
+                    <p>Rs. 525</p>
+                </div>
+
+                <div class="lstqty">
+                    <div class="add-qty">
+                        <select name="quantity" id="qty">
+                            <option value="1">1</option>
+                            <option value="2" selected>2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div><!-- add-qty close -->
+                </div>
+
+                <div class="lsttotal">
+                    <p>Rs. 1050</p>
+                </div>
+
+                <div id="cross"><i class="fa fa-times"></i></div>
+
+            </div><!-- list close -->
+
+            <hr>
+
+            <div class="list">
+                <div class="lstbooks">
+                    <img src="New%20folder/the_dark_knight_joker_wallpapers_002.jpg" alt="">
+                    <div class="detail">
+                        <h2>Book Name</h2>
+                        <p>Author Name <br>
+                            Publication Name <br>
+                            ISBN <br>
+                            Book Category</p>
+                    </div>
+                </div>
+
+                <div class="lstprice">
+                    <p>Rs. 525</p>
+                </div>
+
+                <div class="lstqty">
+                    <div class="add-qty">
+                        <select name="quantity" id="qty">
+                            <option value="1">1</option>
+                            <option value="2" selected>2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div><!-- add-qty close -->
+                </div>
+
+                <div class="lsttotal">
+                    <p>Rs. 1050</p>
+                </div>
+
+                <div id="cross"><i class="fa fa-times"></i></div>
+
+            </div><!-- list close -->
+
+            <hr>
+
+
+
+        </div><!-- content close -->
+
+        <div class="billing">
+            <h2 style="text-align: center;">Order Summary</h2>
+            <div class="order-summary">
+
+                <div class="order-total">
+                    <label for="sub-total">Sub-total</label>
+                    <input type="text" name="" id="sub-total">
+                </div>
+
+                <div class="est-tax">
+
+                    <div>
+                        <div class="select-country">
+                            <label for="country">Country</label>
+                            <select name="country" id="country">
+                                <option value="nepal">Nepal</option>
+                                <option value="china">China</option>
+                                <option value="india">India</option>
+                            </select>
+                        </div><!-- select country close -->
+                    </div>
+
+                    <div>
+                        <div class="select-state">
+                            <label for="state">State/Provience</label>
+                            <select name="state" id="state">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div><!-- select state close -->
+                    </div>
+
+                    <div>
+                        <label for="fallback-tax">Fallback Tax</label>
+                        <input type="text">
+                    </div>
+
+                    <button>
+                        <input type="submit" name="est-tax" id="est-tax" value="ESTIMATE SHIPPING & TAX">
+                    </button>
+
+
+                </div><!-- est-tax close -->
+
+                <div class="order-total">
+                    <label for="grand-total">Grand Total</label>
+                    <input type="text" name="" id="grand-total">
+                </div>
+
+                <button id="check">
+                    <input type="button" name="" id="keep-shopping" value="CLICK TO KEEP SHOPPING">
+                    <input type="button" name="" id="checkout" value="PROCEED TO CHECKOUT">
+                </button>
+
+            </div><!-- Order summary close -->
+        </div><!-- billing close -->
+
+    </main><!--    main section close-->
+
+    <!-- Footer Section -->
+    <div>
+        <hr>
+        <footer>
+            <p>Copyright &copy; 2020 </p>
+        </footer>
+    </div>
+    <!-- Footer Section Close -->
+
+</body></html>
